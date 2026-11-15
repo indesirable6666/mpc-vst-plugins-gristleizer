@@ -1,0 +1,11 @@
+{
+  "name": "EMX1 Test 3",
+  "vendor": "emx1virtual",
+  "uid": "Em3T",
+  "version": 1000,
+  "so": "emx1test3.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "defines": {"PARAM_TEXT_MAX": 64},
+  "build": {"root": "../..", "sources": ["emx1/test3/engine.c"], "cflags": [], "libs": ["-lm"]}
+}

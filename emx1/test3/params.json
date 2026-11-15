@@ -1,0 +1,10 @@
+[
+ { "key": "sample_name", "name": "Sample", "type": "readout", "display": "string" },
+ { "key": "sample_info", "name": "Info", "type": "readout", "display": "string" },
+ { "key": "sample", "name": "Sample num", "min": 0, "max": 1999, "default": 0, "display": "int", "nudge_pct": 10 },
+ { "key": "root", "name": "Root key", "min": 0, "max": 127, "default": 60, "display": "int" },
+ { "key": "level", "name": "Level", "min": 0, "max": 100, "default": 80 },
+ { "key": "loop", "name": "Loop", "options": ["off", "on"], "default": "off" },
+ { "key": "attack", "name": "Attack", "min": 1, "max": 2000, "default": 2 },
+ { "key": "release", "name": "Release", "min": 5, "max": 3000, "default": 200 }
+]
