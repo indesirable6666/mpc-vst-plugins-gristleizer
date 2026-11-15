@@ -1,0 +1,10 @@
+{
+  "name": "EMX1 Test 1",
+  "vendor": "emx1virtual",
+  "uid": "Em1T",
+  "version": 1000,
+  "so": "emx1test1.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "build": {"root": "../..", "sources": ["emx1/test1/engine.c"], "cflags": [], "libs": ["-lm"]}
+}
