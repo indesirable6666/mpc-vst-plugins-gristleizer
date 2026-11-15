@@ -1,0 +1,6 @@
+[
+ { "key": "level", "name": "Level", "min": 0, "max": 100, "default": 70 },
+ { "key": "wave", "name": "Wave", "options": ["Saw", "Square", "Sine"], "default": "Saw" },
+ { "key": "attack", "name": "Attack", "min": 1, "max": 2000, "default": 5 },
+ { "key": "release", "name": "Release", "min": 5, "max": 3000, "default": 300 }
+]
