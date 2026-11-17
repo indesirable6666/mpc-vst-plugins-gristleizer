@@ -1,0 +1,955 @@
+[
+ {
+  "key": "part",
+  "name": "Part",
+  "options": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5",
+   "D1",
+   "D2",
+   "D3",
+   "D4",
+   "D5",
+   "D6A",
+   "D6B",
+   "D7A",
+   "D7B"
+  ],
+  "default": "S1"
+ },
+ {
+  "key": "run",
+  "name": "Run",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "rec",
+  "name": "Record",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "play",
+  "name": "Play",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "stop",
+  "name": "Stop",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "tempo",
+  "name": "Tempo",
+  "min": 60,
+  "max": 200,
+  "default": 120,
+  "display": "int"
+ },
+ {
+  "key": "swing",
+  "name": "Swing",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "master",
+  "name": "Master",
+  "min": 0,
+  "max": 100,
+  "default": 80,
+  "display": "int"
+ },
+ {
+  "key": "tube",
+  "name": "Tube",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "fxchain",
+  "name": "FX chain",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "fxret",
+  "name": "FX return",
+  "min": 0,
+  "max": 100,
+  "default": 100,
+  "display": "int"
+ },
+ {
+  "key": "fx1on",
+  "name": "FX1 on",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "fx1type",
+  "name": "FX1 type",
+  "options": [
+   "Talking",
+   "Pitch",
+   "Compressor",
+   "Distortion",
+   "Decimator",
+   "EQ",
+   "LPF",
+   "HPF",
+   "Reverb",
+   "BPM Delay",
+   "Short Delay",
+   "Mod Delay",
+   "Grain",
+   "Cho-Flg",
+   "Phaser",
+   "Ring Mod"
+  ],
+  "default": "Talking"
+ },
+ {
+  "key": "fx1e1",
+  "name": "FX1 edit 1",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx1e2",
+  "name": "FX1 edit 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx2on",
+  "name": "FX2 on",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "fx2type",
+  "name": "FX2 type",
+  "options": [
+   "Talking",
+   "Pitch",
+   "Compressor",
+   "Distortion",
+   "Decimator",
+   "EQ",
+   "LPF",
+   "HPF",
+   "Reverb",
+   "BPM Delay",
+   "Short Delay",
+   "Mod Delay",
+   "Grain",
+   "Cho-Flg",
+   "Phaser",
+   "Ring Mod"
+  ],
+  "default": "EQ"
+ },
+ {
+  "key": "fx2e1",
+  "name": "FX2 edit 1",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx2e2",
+  "name": "FX2 edit 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx3on",
+  "name": "FX3 on",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "fx3type",
+  "name": "FX3 type",
+  "options": [
+   "Talking",
+   "Pitch",
+   "Compressor",
+   "Distortion",
+   "Decimator",
+   "EQ",
+   "LPF",
+   "HPF",
+   "Reverb",
+   "BPM Delay",
+   "Short Delay",
+   "Mod Delay",
+   "Grain",
+   "Cho-Flg",
+   "Phaser",
+   "Ring Mod"
+  ],
+  "default": "Short Delay"
+ },
+ {
+  "key": "fx3e1",
+  "name": "FX3 edit 1",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx3e2",
+  "name": "FX3 edit 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "step",
+  "name": "Step",
+  "options": [
+   "s01",
+   "s02",
+   "s03",
+   "s04",
+   "s05",
+   "s06",
+   "s07",
+   "s08",
+   "s09",
+   "s10",
+   "s11",
+   "s12",
+   "s13",
+   "s14",
+   "s15",
+   "s16"
+  ],
+  "default": "s01"
+ },
+ {
+  "key": "part_name",
+  "name": "Part name",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "sample_name",
+  "name": "Sample name",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "sample_info",
+  "name": "Sample info",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "source",
+  "name": "Source",
+  "options": [
+   "Smp",
+   "Saw",
+   "Sqr",
+   "Sin"
+  ],
+  "default": "Saw"
+ },
+ {
+  "key": "sample",
+  "name": "Sample no",
+  "min": 0,
+  "max": 1999,
+  "default": 0,
+  "display": "int",
+  "nudge_pct": 10
+ },
+ {
+  "key": "root",
+  "name": "Root key",
+  "min": 0,
+  "max": 127,
+  "default": 60,
+  "display": "int"
+ },
+ {
+  "key": "note",
+  "name": "Seq note",
+  "min": 0,
+  "max": 127,
+  "default": 60,
+  "display": "int"
+ },
+ {
+  "key": "level",
+  "name": "Level",
+  "min": 0,
+  "max": 100,
+  "default": 80,
+  "display": "int"
+ },
+ {
+  "key": "pan",
+  "name": "Pan",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "loop",
+  "name": "Loop",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "attack",
+  "name": "Attack",
+  "min": 1,
+  "max": 2000,
+  "default": 2,
+  "display": "int"
+ },
+ {
+  "key": "release",
+  "name": "Release",
+  "min": 5,
+  "max": 3000,
+  "default": 200,
+  "display": "int"
+ },
+ {
+  "key": "ftype",
+  "name": "Filter type",
+  "options": [
+   "LP",
+   "HP",
+   "BP",
+   "BP+"
+  ],
+  "default": "LP"
+ },
+ {
+  "key": "cutoff",
+  "name": "Cutoff",
+  "min": 0,
+  "max": 100,
+  "default": 100,
+  "display": "int"
+ },
+ {
+  "key": "reso",
+  "name": "Resonance",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "fenv",
+  "name": "Env amount",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "fdecay",
+  "name": "Env decay",
+  "min": 10,
+  "max": 3000,
+  "default": 300,
+  "display": "int"
+ },
+ {
+  "key": "otype",
+  "name": "Osc type",
+  "options": [
+   "Wave",
+   "Dual",
+   "Sync",
+   "Ring",
+   "Chord",
+   "Cross",
+   "Additive",
+   "Noise",
+   "Formant",
+   "Unison",
+   "VPM"
+  ],
+  "default": "Wave"
+ },
+ {
+  "key": "oedit1",
+  "name": "Osc edit 1",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "oedit2",
+  "name": "Osc edit 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "lshape",
+  "name": "LFO shape",
+  "options": [
+   "Sin",
+   "Tri",
+   "Saw",
+   "Sqr"
+  ],
+  "default": "Sin"
+ },
+ {
+  "key": "lspeed",
+  "name": "LFO speed",
+  "min": 0,
+  "max": 100,
+  "default": 20,
+  "display": "int"
+ },
+ {
+  "key": "ldepth",
+  "name": "LFO depth",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "ldest",
+  "name": "LFO dest",
+  "options": [
+   "Pitch",
+   "Cutoff",
+   "Amp",
+   "Pan"
+  ],
+  "default": "Pitch"
+ },
+ {
+  "key": "fxsel",
+  "name": "FX select",
+  "options": [
+   "Off",
+   "FX1",
+   "FX2",
+   "FX3"
+  ],
+  "default": "Off"
+ },
+ {
+  "key": "fxsend",
+  "name": "FX send",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "t01",
+  "name": "Step 1",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t02",
+  "name": "Step 2",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t03",
+  "name": "Step 3",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t04",
+  "name": "Step 4",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t05",
+  "name": "Step 5",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t06",
+  "name": "Step 6",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t07",
+  "name": "Step 7",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t08",
+  "name": "Step 8",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t09",
+  "name": "Step 9",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t10",
+  "name": "Step 10",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t11",
+  "name": "Step 11",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t12",
+  "name": "Step 12",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t13",
+  "name": "Step 13",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t14",
+  "name": "Step 14",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t15",
+  "name": "Step 15",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "t16",
+  "name": "Step 16",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "arp",
+  "name": "Arp",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "arp_pos",
+  "name": "Arp slider",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "arp_gate",
+  "name": "Arp gate",
+  "min": 5,
+  "max": 100,
+  "default": 60,
+  "display": "int"
+ },
+ {
+  "key": "arp_center",
+  "name": "Arp center",
+  "min": 0,
+  "max": 127,
+  "default": 60,
+  "display": "int"
+ },
+ {
+  "key": "arp_scale",
+  "name": "Arp scale",
+  "options": [
+   "Chroma",
+   "Ionian",
+   "Dorian",
+   "Phrygi",
+   "Lydian",
+   "MixLyd",
+   "Aeolia",
+   "Locria",
+   "MBlues",
+   "mBlues",
+   "Dim",
+   "ComDim",
+   "MPenta",
+   "mPenta",
+   "Raga1",
+   "Raga2",
+   "Raga3",
+   "Spansh",
+   "Gypsy",
+   "Arabia",
+   "Egypt",
+   "Hawaii",
+   "Pelog",
+   "Japan",
+   "Ryukyu",
+   "Whole",
+   "M3rd",
+   "m3rd",
+   "4th",
+   "5th",
+   "Octave"
+  ],
+  "default": "Chroma"
+ },
+ {
+  "key": "arp_type",
+  "name": "Arp type",
+  "options": [
+   "Up",
+   "Down",
+   "UpDn",
+   "Rand"
+  ],
+  "default": "Up"
+ },
+ {
+  "key": "arp_rate",
+  "name": "Arp rate",
+  "options": [
+   "8th",
+   "16th",
+   "32nd"
+  ],
+  "default": "16th"
+ },
+ {
+  "key": "rib",
+  "name": "Ribbon",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "pa01",
+  "name": "Part pad 1",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "on"
+ },
+ {
+  "key": "pa02",
+  "name": "Part pad 2",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa03",
+  "name": "Part pad 3",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa04",
+  "name": "Part pad 4",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa05",
+  "name": "Part pad 5",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa06",
+  "name": "Part pad 6",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa07",
+  "name": "Part pad 7",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa08",
+  "name": "Part pad 8",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa09",
+  "name": "Part pad 9",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa10",
+  "name": "Part pad 10",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa11",
+  "name": "Part pad 11",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa12",
+  "name": "Part pad 12",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa13",
+  "name": "Part pad 13",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "pa14",
+  "name": "Part pad 14",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "fdrive",
+  "name": "Filter drive",
+  "min": 0,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "chord",
+  "name": "Chord",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "off"
+ },
+ {
+  "key": "chtype",
+  "name": "Chord type",
+  "options": [
+   "Maj",
+   "min",
+   "Maj7",
+   "min7",
+   "sus4",
+   "dim",
+   "aug",
+   "5th"
+  ],
+  "default": "Maj"
+ },
+ {
+  "key": "arp_spring",
+  "name": "Arp spring",
+  "options": [
+   "off",
+   "on"
+  ],
+  "default": "on"
+ },
+ {
+  "key": "rib1",
+  "name": "Ribbon 1",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib2",
+  "name": "Ribbon 2",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib3",
+  "name": "Ribbon 3",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib4",
+  "name": "Ribbon 4",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib5",
+  "name": "Ribbon 5",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib6",
+  "name": "Ribbon 6",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib7",
+  "name": "Ribbon 7",
+  "type": "trigger",
+  "momentary": true
+ },
+ {
+  "key": "rib8",
+  "name": "Ribbon 8",
+  "type": "trigger",
+  "momentary": true
+ }
+]

@@ -7,5 +7,5 @@ VENDOR=$(sed -n 's/.*"vendor": *"\([^"]*\)".*/\1/p' "$P/vst.json")
 NAME=$(sed -n 's/.*"name": *"\([^"]*\)".*/\1/p' "$P/vst.json")
 SO=$(sed -n 's/.*"so": *"\([^"]*\)".*/\1/p' "$P/vst.json")
 rm -rf "$P/dist"
-python3 tools/release.py --so "$P/build/$SO" --skin "$P/build/skin/$VENDOR - VST - $NAME" --entry "$P/build/pluginlist-entry.xml" --version 1.0.0 -o "$P/dist"
+python3 tools/release.py --so "$P/build/$SO" --skin "$P/build/skin/$VENDOR - VST - $NAME" --entry "$P/build/pluginlist-entry.xml" --version 4.0.0 -o "$P/dist"
 ls -l "$P/dist"

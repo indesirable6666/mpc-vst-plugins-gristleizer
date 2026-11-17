@@ -1,0 +1,23 @@
+{
+  "name": "EMX1 Virtual",
+  "vendor": "emx1virtual",
+  "uid": "EmxV",
+  "version": 4000,
+  "so": "emx1virtual.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "defines": {
+    "PARAM_TEXT_MAX": 64
+  },
+  "build": {
+    "root": "../..",
+    "sources": [
+      "emx1/virtual/engine.c"
+    ],
+    "cflags": [],
+    "libs": [
+      "-lm"
+    ]
+  }
+}
