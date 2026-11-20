@@ -1,0 +1,869 @@
+[
+ {
+  "key": "xfade",
+  "name": "Crossfader",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "xcurve",
+  "name": "Crossfader curve",
+  "options": [
+   "Additive",
+   "Power",
+   "Cut"
+  ],
+  "default": "Additive"
+ },
+ {
+  "key": "master",
+  "name": "Master",
+  "min": 0,
+  "max": 100,
+  "default": 80,
+  "display": "int"
+ },
+ {
+  "key": "lib_dir",
+  "name": "Folder",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_info",
+  "name": "Info",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row0",
+  "name": "Row 1",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row1",
+  "name": "Row 2",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row2",
+  "name": "Row 3",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row3",
+  "name": "Row 4",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row4",
+  "name": "Row 5",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row5",
+  "name": "Row 6",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row6",
+  "name": "Row 7",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_row7",
+  "name": "Row 8",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "lib_tap0",
+  "name": "Tap 1",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap1",
+  "name": "Tap 2",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap2",
+  "name": "Tap 3",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap3",
+  "name": "Tap 4",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap4",
+  "name": "Tap 5",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap5",
+  "name": "Tap 6",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap6",
+  "name": "Tap 7",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_tap7",
+  "name": "Tap 8",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_up",
+  "name": "Up",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_pgup",
+  "name": "Page up",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_pgdn",
+  "name": "Page down",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_loada",
+  "name": "Load A",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_loadb",
+  "name": "Load B",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "lib_scroll",
+  "name": "Scroll",
+  "min": 0,
+  "max": 999,
+  "default": 0,
+  "display": "int",
+  "nudge_pct": 10
+ },
+ {
+  "key": "lib_ha",
+  "name": "Highlight deck A",
+  "options": [
+   "-",
+   "r0",
+   "r1",
+   "r2",
+   "r3",
+   "r4",
+   "r5",
+   "r6",
+   "r7"
+  ],
+  "default": "-"
+ },
+ {
+  "key": "lib_hb",
+  "name": "Highlight deck B",
+  "options": [
+   "-",
+   "r0",
+   "r1",
+   "r2",
+   "r3",
+   "r4",
+   "r5",
+   "r6",
+   "r7"
+  ],
+  "default": "-"
+ },
+ {
+  "key": "a_title",
+  "name": "A title",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "a_time",
+  "name": "A time",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "a_bpm",
+  "name": "A bpm",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "a_vu",
+  "name": "A level",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "a_pos",
+  "name": "A position",
+  "min": 0,
+  "max": 1000,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "a_play",
+  "name": "A play",
+  "options": [
+   "PAUSE",
+   "PLAY"
+  ],
+  "default": "PAUSE"
+ },
+ {
+  "key": "a_cue",
+  "name": "A cue",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_sync",
+  "name": "A sync",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_tap",
+  "name": "A tap tempo",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_hc1",
+  "name": "A hotcue 1",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_hc2",
+  "name": "A hotcue 2",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_hc3",
+  "name": "A hotcue 3",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_hc4",
+  "name": "A hotcue 4",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_hcclr",
+  "name": "A hotcue delete",
+  "options": [
+   "SET / JUMP",
+   "DELETE"
+  ],
+  "default": "SET / JUMP"
+ },
+ {
+  "key": "a_loop",
+  "name": "A loop",
+  "options": [
+   "LOOP off",
+   "LOOP ON"
+  ],
+  "default": "LOOP off"
+ },
+ {
+  "key": "a_lsize",
+  "name": "A loop size",
+  "options": [
+   "1/2",
+   "1",
+   "2",
+   "4",
+   "8"
+  ],
+  "default": "4"
+ },
+ {
+  "key": "a_pitch",
+  "name": "A pitch",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "a_prange",
+  "name": "A pitch range",
+  "options": [
+   "8%",
+   "16%",
+   "50%"
+  ],
+  "default": "8%"
+ },
+ {
+  "key": "a_nudm",
+  "name": "A nudge -",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_nudp",
+  "name": "A nudge +",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "a_gain",
+  "name": "A gain",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "a_hi",
+  "name": "A high",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "a_mid",
+  "name": "A mid",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "a_low",
+  "name": "A low",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "a_filter",
+  "name": "A filter",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "a_fader",
+  "name": "A fader",
+  "min": 0,
+  "max": 100,
+  "default": 100,
+  "display": "int"
+ },
+ {
+  "key": "a_kh",
+  "name": "A kill high",
+  "options": [
+   "HI",
+   "KILL"
+  ],
+  "default": "HI"
+ },
+ {
+  "key": "a_km",
+  "name": "A kill mid",
+  "options": [
+   "MID",
+   "KILL"
+  ],
+  "default": "MID"
+ },
+ {
+  "key": "a_kl",
+  "name": "A kill low",
+  "options": [
+   "LOW",
+   "KILL"
+  ],
+  "default": "LOW"
+ },
+ {
+  "key": "a_orient",
+  "name": "A crossfader side",
+  "options": [
+   "Left",
+   "Center",
+   "Right"
+  ],
+  "default": "Left"
+ },
+ {
+  "key": "b_title",
+  "name": "B title",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "b_time",
+  "name": "B time",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "b_bpm",
+  "name": "B bpm",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "b_vu",
+  "name": "B level",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "b_pos",
+  "name": "B position",
+  "min": 0,
+  "max": 1000,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "b_play",
+  "name": "B play",
+  "options": [
+   "PAUSE",
+   "PLAY"
+  ],
+  "default": "PAUSE"
+ },
+ {
+  "key": "b_cue",
+  "name": "B cue",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_sync",
+  "name": "B sync",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_tap",
+  "name": "B tap tempo",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_hc1",
+  "name": "B hotcue 1",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_hc2",
+  "name": "B hotcue 2",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_hc3",
+  "name": "B hotcue 3",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_hc4",
+  "name": "B hotcue 4",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_hcclr",
+  "name": "B hotcue delete",
+  "options": [
+   "SET / JUMP",
+   "DELETE"
+  ],
+  "default": "SET / JUMP"
+ },
+ {
+  "key": "b_loop",
+  "name": "B loop",
+  "options": [
+   "LOOP off",
+   "LOOP ON"
+  ],
+  "default": "LOOP off"
+ },
+ {
+  "key": "b_lsize",
+  "name": "B loop size",
+  "options": [
+   "1/2",
+   "1",
+   "2",
+   "4",
+   "8"
+  ],
+  "default": "4"
+ },
+ {
+  "key": "b_pitch",
+  "name": "B pitch",
+  "min": -100,
+  "max": 100,
+  "default": 0,
+  "display": "int"
+ },
+ {
+  "key": "b_prange",
+  "name": "B pitch range",
+  "options": [
+   "8%",
+   "16%",
+   "50%"
+  ],
+  "default": "8%"
+ },
+ {
+  "key": "b_nudm",
+  "name": "B nudge -",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_nudp",
+  "name": "B nudge +",
+  "min": 0,
+  "max": 1,
+  "default": 0,
+  "momentary": true
+ },
+ {
+  "key": "b_gain",
+  "name": "B gain",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "b_hi",
+  "name": "B high",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "b_mid",
+  "name": "B mid",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "b_low",
+  "name": "B low",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "b_filter",
+  "name": "B filter",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "b_fader",
+  "name": "B fader",
+  "min": 0,
+  "max": 100,
+  "default": 100,
+  "display": "int"
+ },
+ {
+  "key": "b_kh",
+  "name": "B kill high",
+  "options": [
+   "HI",
+   "KILL"
+  ],
+  "default": "HI"
+ },
+ {
+  "key": "b_km",
+  "name": "B kill mid",
+  "options": [
+   "MID",
+   "KILL"
+  ],
+  "default": "MID"
+ },
+ {
+  "key": "b_kl",
+  "name": "B kill low",
+  "options": [
+   "LOW",
+   "KILL"
+  ],
+  "default": "LOW"
+ },
+ {
+  "key": "b_orient",
+  "name": "B crossfader side",
+  "options": [
+   "Left",
+   "Center",
+   "Right"
+  ],
+  "default": "Right"
+ },
+ {
+  "key": "fx1_type",
+  "name": "FX1 effect",
+  "options": [
+   "Echo",
+   "Reverb",
+   "Flange",
+   "Phase",
+   "Crush",
+   "Moog",
+   "APan",
+   "Trem"
+  ],
+  "default": "Echo"
+ },
+ {
+  "key": "fx1_wet",
+  "name": "FX1 dry/wet",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx1_p1",
+  "name": "FX1 param 1",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx1_p2",
+  "name": "FX1 param 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx1_ra",
+  "name": "FX1 on A",
+  "options": [
+   "A off",
+   "A ON"
+  ],
+  "default": "A off"
+ },
+ {
+  "key": "fx1_rb",
+  "name": "FX1 on B",
+  "options": [
+   "B off",
+   "B ON"
+  ],
+  "default": "B off"
+ },
+ {
+  "key": "fx1_rm",
+  "name": "FX1 on master",
+  "options": [
+   "M off",
+   "M ON"
+  ],
+  "default": "M off"
+ },
+ {
+  "key": "fx1_desc",
+  "name": "FX1 text",
+  "type": "readout",
+  "display": "string"
+ },
+ {
+  "key": "fx2_type",
+  "name": "FX2 effect",
+  "options": [
+   "Echo",
+   "Reverb",
+   "Flange",
+   "Phase",
+   "Crush",
+   "Moog",
+   "APan",
+   "Trem"
+  ],
+  "default": "Echo"
+ },
+ {
+  "key": "fx2_wet",
+  "name": "FX2 dry/wet",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx2_p1",
+  "name": "FX2 param 1",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx2_p2",
+  "name": "FX2 param 2",
+  "min": 0,
+  "max": 100,
+  "default": 50,
+  "display": "int"
+ },
+ {
+  "key": "fx2_ra",
+  "name": "FX2 on A",
+  "options": [
+   "A off",
+   "A ON"
+  ],
+  "default": "A off"
+ },
+ {
+  "key": "fx2_rb",
+  "name": "FX2 on B",
+  "options": [
+   "B off",
+   "B ON"
+  ],
+  "default": "B off"
+ },
+ {
+  "key": "fx2_rm",
+  "name": "FX2 on master",
+  "options": [
+   "M off",
+   "M ON"
+  ],
+  "default": "M off"
+ },
+ {
+  "key": "fx2_desc",
+  "name": "FX2 text",
+  "type": "readout",
+  "display": "string"
+ }
+]

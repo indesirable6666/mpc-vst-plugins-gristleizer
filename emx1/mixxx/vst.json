@@ -1,0 +1,24 @@
+{
+  "name": "Mixxx MPC",
+  "vendor": "mixxxmpc",
+  "uid": "MxMp",
+  "version": 1000,
+  "so": "mixxxmpc.so",
+  "params": "params.json",
+  "layout": "layout.conf",
+  "art": "html",
+  "defines": {
+    "PARAM_TEXT_MAX": 64
+  },
+  "build": {
+    "root": "../..",
+    "sources": [
+      "emx1/mixxx/engine.c"
+    ],
+    "cflags": [],
+    "libs": [
+      "-lm",
+      "-lpthread"
+    ]
+  }
+}

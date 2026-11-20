@@ -1,0 +1,15 @@
+static const char *const OPTS_3_87544[] = {"Additive", "Power", "Cut"};
+static const char *const OPTS_9_49449[] = {"-", "r0", "r1", "r2", "r3", "r4", "r5", "r6", "r7"};
+static const char *const OPTS_2_32625[] = {"PAUSE", "PLAY"};
+static const char *const OPTS_2_99692[] = {"SET / JUMP", "DELETE"};
+static const char *const OPTS_2_63952[] = {"LOOP off", "LOOP ON"};
+static const char *const OPTS_5_52747[] = {"1/2", "1", "2", "4", "8"};
+static const char *const OPTS_3_88719[] = {"8%", "16%", "50%"};
+static const char *const OPTS_2_93983[] = {"HI", "KILL"};
+static const char *const OPTS_2_72220[] = {"MID", "KILL"};
+static const char *const OPTS_2_88912[] = {"LOW", "KILL"};
+static const char *const OPTS_3_62889[] = {"Left", "Center", "Right"};
+static const char *const OPTS_8_82013[] = {"Echo", "Reverb", "Flange", "Phase", "Crush", "Moog", "APan", "Trem"};
+static const char *const OPTS_2_86265[] = {"A off", "A ON"};
+static const char *const OPTS_2_28325[] = {"B off", "B ON"};
+static const char *const OPTS_2_63102[] = {"M off", "M ON"};
